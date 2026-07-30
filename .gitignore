@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Bun
+.bun/
+
+# Build and test output
+dist/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Pi package install caches and local state
+.pi/git/
+.pi/skills/
+.pi/npm/
+.pi/sessions/
+docs/todos/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local agent and VCS metadata
+.agents/
+.jj/

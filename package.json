@@ -1,0 +1,34 @@
+{
+  "name": "keiei",
+  "version": "0.1.0",
+  "description": "Pi package built with TypeScript and Bun.",
+  "type": "module",
+  "packageManager": "bun@1.3.14",
+  "keywords": [
+    "pi-package"
+  ],
+  "files": [
+    "extensions",
+    "skills",
+    "prompts",
+    "themes"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "check": "bun run typecheck && bun test"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.83.0",
+    "@types/bun": "^1.3.0",
+    "typescript": "^5.9.0"
+  }
+}
