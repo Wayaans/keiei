@@ -58,3 +58,17 @@ Save guidance here only when it defines a durable development behavior that shou
 - This repo is for pi coding agent extensions wrap in pi packages, using typescript with bun for packet manager.
 
 </additional-agents-guidelines>
+
+## Agent skills
+
+### Issue tracker
+
+Wayfinder and triage use GitHub Issues; specs and implementation tickets use local Markdown. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+GitHub triage uses the five default canonical labels. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This repository uses the single-context layout. See `docs/agents/domain.md`.
